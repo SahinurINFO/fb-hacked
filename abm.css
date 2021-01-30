@@ -1,0 +1,138 @@
+*{
+	margin: 0px;
+	padding: 0;
+	font-family: sans-serif;
+}
+.a{
+	text-decoration: none;
+	color: #3b5998;
+	margin-left: 8px;
+	line-height: 20px;
+	font-size: 17px;
+}
+.a:visited{
+	color: #3b5998;
+}
+.a:hover{
+	background-color: #3b5998;
+	color: #fff;
+}
+button{
+	border: none;
+	background-color: #42b72a;
+	color:#fff;
+}
+#wrapper{
+	width: 320px;
+	margin: 0px;
+    
+}
+header{
+	background: #3b5998;
+	width: 100%;
+	padding: 2px 0;
+	display: flex;
+	justify-content: space-between;
+}
+header .title{
+	color: #fff;
+	font-size: 20px;
+	margin-left: 5px;
+}
+header .new button{
+	margin-right: 5px;
+	background-color: #69a74e;
+	padding:5px 10px;
+	border: 1px solid #4476e8;
+}
+header .new button a{
+    color:#fff;
+    text-decoration:none;
+}
+form{
+	margin-left: 8px;
+	padding-top: 10px;
+}
+input{
+	margin-bottom: 10px;
+	border: solid 1px #999;
+	box-sizing: border-box;
+	padding:12px 8px;
+	width:305px;
+}
+input:hover, input:focus{
+	border: solid 1px #999;
+	box-sizing: border-box;
+}
+input[type=submit]{
+	background-color: #4267b2;
+	border:1px solid #365899;
+	color: white;
+	font-size: 14px;
+	height: 44px;
+	line-height: 44px;
+	padding: 0 19px;
+}
+input[type=submit]:hover{
+	background-color: #465e91;
+}
+label{
+	color: #90949c;	
+}
+.content_wrapper{
+	background-color: #ECEFF5;
+}
+.bx{
+	display:block;
+	margin-bottom:5px;
+	margin-left:3%;
+	margin-top:-3px;
+	overflow:hidden;
+	text-align:center;
+	white-space:nowrap;
+	width:94%;
+}
+.bx>span{
+	display:inline-block;
+	position:relative;
+}
+.bx>span:before,.bx>span:after{
+	background:#ced0d4;
+	content:"";
+	height:1px;
+	position:absolute;
+	top: 100%;
+	width: 9999px;
+}
+.bx>span:before{
+	margin-right: 14px;
+	right:100%;
+}
+.bx>span:after{
+	left:100%;
+	margin-left:14px;
+}
+.by{
+	color:#4b4f56;
+	font-size:14px;
+}
+.new_ac{
+	display: flex;
+	justify-content: center;
+}
+.new_ac button{
+	padding: 0 19px;
+	text-align: center;
+	height: 44px;
+	border: 1px solid #bec2c9;
+	font-size: 14px;
+}
+.new_ac button a{
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+    text-decoration:none;
+}
+.sa{
+	margin-bottom: 8px;
+}
